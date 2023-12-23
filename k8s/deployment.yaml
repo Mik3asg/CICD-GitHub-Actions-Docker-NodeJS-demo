@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: <your ECR image>
+        image: 895072465878.dkr.ecr.us-east-1.amazonaws.com/mik3devops:${IMAGE_TAG}
         ports:
         - containerPort: 3000
